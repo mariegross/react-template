@@ -1,5 +1,6 @@
 {
   "name": "react-template",
+  "private": "true",
   "version": "1.0.0",
   "description": "Template for create-react-app with express.js API",
   "main": "server.js",
