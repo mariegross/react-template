@@ -4,7 +4,8 @@
   "description": "Template for create-react-app with express.js API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettify": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mariegross/react-template/issues"
   },
-  "homepage": "https://github.com/mariegross/react-template#readme"
+  "homepage": "https://github.com/mariegross/react-template#readme",
+  "devDependencies": {
+    "prettier": "2.2.0"
+  }
 }
