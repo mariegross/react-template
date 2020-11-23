@@ -1,14 +1,16 @@
 import React from "react";
 
-import { Button } from "./Button";
+import Button from "./Button";
 
-export default {
+const ExButton = {
   title: "Example/Button",
   component: Button,
   argTypes: {
     backgroundColor: { control: "color" },
   },
 };
+
+export default ExButton;
 
 const Template = (args) => <Button {...args} />;
 
