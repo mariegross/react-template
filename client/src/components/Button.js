@@ -39,7 +39,7 @@ Button.propTypes = {
   /**
    * Button contents
    */
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string,
   /**
    * Optional click handler
    */
