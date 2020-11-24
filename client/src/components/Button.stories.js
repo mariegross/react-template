@@ -2,7 +2,7 @@ import React from "react";
 
 import Button from "./Button";
 
-const ExButton = {
+const exButton = {
   title: "Example/Button",
   component: Button,
   argTypes: {
@@ -10,7 +10,7 @@ const ExButton = {
   },
 };
 
-export default ExButton;
+export default exButton;
 
 const Template = (args) => <Button {...args} />;
 
