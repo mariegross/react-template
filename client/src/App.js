@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <exButton />
+      <a href="/storybook">To Storybook</a>
     </div>
   );
 }
